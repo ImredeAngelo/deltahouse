@@ -1,0 +1,13 @@
+{
+  "name": "deltahouse",
+  "packageManager": "yarn@4.0.1",
+  "scripts": {
+    "app": "yarn workspace @deltahouse/app"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "devDependencies": {
+    "jest-teamcity": "^1.11.0"
+  }
+}
